@@ -16,6 +16,7 @@ for i in range(0, n):
 pi = sum * 4.0
 err = math.pi - pi
 
-print "approximate:", pi
-print "error:", err
+print "pi          :", math.pi
+print "approximate :", pi
+print "error       :", err
 
