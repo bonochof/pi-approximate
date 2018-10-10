@@ -1,4 +1,5 @@
 import sys
+import math
 
 args = sys.argv
 n = int(args[1])
@@ -14,5 +15,8 @@ for i in range(0, n):
   sum += (func(x1) + func(x2)) * dx / 2.0
 
 pi = sum * 4.0
-print pi
+err = math.pi - pi
+
+print "predict:", pi
+print "error:", err
 
